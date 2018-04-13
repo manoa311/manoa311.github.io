@@ -18,7 +18,14 @@ Creating a ticket: when creating a ticket, the user will have to specify 1) what
 
 Viewing a ticket: when viewing a ticket, the user can comment on the ticket. @Administrators can add a projected finish date to a ticket after receiving it, which lets users know when they plan to work on fixing the issue.
 
-
+Running list of features to implement:
+- Implement sorting on landing page
+- When viewing a ticket, link it to the actual ticket to be viewed
+- Remove "Admin" tab
+- Remove "Ticket-Admin" tab and detect whether or not the user is an admin. If the user is an admin, then redirect to view ticket page with additional admin options (update, delete)
+- Add upvoting column for landing page
+- Based on number of upvotes, increase the hue of the color of the ticket status
+- Create "My Tickets" tab for tickets that the user is following and the tickets that the user owns
 
 Advanced features: 
 Email alerts will be sent out for unresolved tickets (on some schedule? Based on severity level? Alert after 30 days if mild/Alert after a week if critical?) until they are resolved.
