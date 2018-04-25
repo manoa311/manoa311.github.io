@@ -1,7 +1,17 @@
 Manoa 311
 
 ## Table of Contents:
-- TODO
+* [About Manoa311](#about-mano311)
+* [Installation](#installation)
+* [Application Design](#application-design)
+  * [Landing page](#landing-page)
+  * ["My Tickets" page](#mytickets-page)
+  * [Admin Tickets page](#admintickets-page)
+  * ["Create a Ticket" page](#createticket-page)
+  * [View Ticket page](#viewticket-page)
+* [Development History](#development-history)
+  * [Advanced Features](#advanced-features)
+* [Contact](#contact-us)
 
 ## About:
 UH has many problems with broken stuff, especially restrooms. There have been too many times where I’ve entered a restroom with a broken door handle, missing soap, and rancid odors. In addition to restroom issues, there are other facility problems throughout UH.
@@ -14,9 +24,9 @@ Our application aims to try to end that by providing a platform for students and
 
 - Landing page: Listing of all current tickets with navigation/filter bar (filter by ticket age, location, popularity), with login/sign up on the top right, contact information on the bottom.
 
-- User home page: Same as landing page, but with options to create a ticket, view your current tickets, follow a ticket (user will get notified of any updates to issue), view followed tickets, upvote tickets.
+- "My Tickets" page: Same as landing page, but with options to create a ticket, view your current tickets, follow a ticket (user will get notified of any updates to issue), view followed tickets, upvote tickets.
 
-- Admin home page: Same as user home page, but with options to view all users, edit tickets, delete tickets, and block users.
+- Admin Tickets page: Same as user home page, but with options to view all users, edit tickets, delete tickets, and block users.
 
 - Creating a ticket: when creating a ticket, the user will have to specify 1) what building the issue is in, 2) what type of facility the issue is in (e.g. bathroom, classroom), 3) specifically what the issue is in that room. Users can specify a severity level (on a scale from mild to critical). Users can upvote other tickets for awareness and report/flag to filter “trolls”. A ticket, by default, is unresolved and when seen by administrators, can be updated to received (meaning that the issue is acknowledged). Users can vote a ticket to be resolved, then administrators can mark a ticket as resolved once they verify whether or not the issue is actually fixed (upload a picture of the resolved issue?). 
 
