@@ -1,5 +1,3 @@
-Manoa 311
-
 ## Table of Contents:
 * [About Manoa311](#about-mano311)
 * [Installation](#installation)
@@ -34,32 +32,36 @@ Our application aims to try to end that by providing a platform for students and
 
 ## Development History:
 ### Milestone 1:
-- Create basic structure of application
+- Create basic structure of application (without functional buttons)
   - Create landing page for viewing of all tickets
   - Create admin page for viewing all tickets, but with options for deletion and update
   - Create page to view individual tickets, with options to comment on them as well as view any updates on the ticket
-  - TODO
+  - Create page to add tickets
+- Add fake data for visualization of tables of tickets (w/o mongoDB collections)
 
 ### Milestone 2:
 - Implement sorting on landing page
+- Add search/filter bar to landing page and user/admin ticket pages
+  - Implement prototypes for filters, searches, and sorting
+- Add upvoting column to landing page
+- Link fake data to mongoDB collections
 - When viewing a ticket, link it to the actual ticket to be viewed
-- Remove "Admin" tab
 - Remove "Ticket-Admin" tab and detect whether or not the user is an admin. If the user is an admin, then redirect to view ticket page with additional admin options (update, delete)
 - Add upvoting column for landing page
-- Based on number of upvotes, increase the hue of the color of the ticket status
 - Create "My Tickets" tab for tickets that the user is following and the tickets that the user owns
-- TODO
 
 ### Milestone 3:
+- Implement "quick tabs", such as an "Unresolved Tickets" tab
 - TODO
 
 #### Advanced Features
 These features may not necessarily get implemented due to time constraints, but they are things that we thought might make our application more useful.
+  - Based on number of upvotes, increase the hue of the color of the ticket status
   - Email alerts will be sent out for unresolved tickets (on some schedule? Based on severity level? Alert after 30 days if mild/Alert after a week if critical?) until they are resolved.
   - Create a geo-map of all of the tickets mapped out
 
 ## Contact Us:
 - Joaquin Torres (jftorres@hawaii.edu)
-- Nolan Puletasi (TODO)
-- Michael Kurihara (TODO)
-- Jason Malignon (TODO)
+- Nolan Puletasi (pn7@hawaii.edu)
+- Michael Kurihara (mkurihar@hawaii.edu)
+- Jason Maligon (jmaligon@hawaii.edu)
