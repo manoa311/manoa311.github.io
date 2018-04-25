@@ -33,6 +33,14 @@ Our application aims to try to end that by providing a platform for students and
 - Viewing a ticket: when viewing a ticket, the user can comment on the ticket. @Administrators can add a projected finish date to a ticket after receiving it, which lets users know when they plan to work on fixing the issue.
 
 ## Development History:
+### Milestone 1:
+- Create basic structure of application
+  - Create landing page for viewing of all tickets
+  - Create admin page for viewing all tickets, but with options for deletion and update
+  - Create page to view individual tickets, with options to comment on them as well as view any updates on the ticket
+  - TODO
+
+### Milestone 2:
 - Implement sorting on landing page
 - When viewing a ticket, link it to the actual ticket to be viewed
 - Remove "Admin" tab
@@ -40,13 +48,18 @@ Our application aims to try to end that by providing a platform for students and
 - Add upvoting column for landing page
 - Based on number of upvotes, increase the hue of the color of the ticket status
 - Create "My Tickets" tab for tickets that the user is following and the tickets that the user owns
+- TODO
 
-- Advanced features: 
+### Milestone 3:
+- TODO
+
+#### Advanced Features
+These features may not necessarily get implemented due to time constraints, but they are things that we thought might make our application more useful.
   - Email alerts will be sent out for unresolved tickets (on some schedule? Based on severity level? Alert after 30 days if mild/Alert after a week if critical?) until they are resolved.
   - Create a geo-map of all of the tickets mapped out
 
 ## Contact Us:
 - Joaquin Torres (jftorres@hawaii.edu)
-- Nolan Puletasi ()
-- Michael Kurihara ()
-- Jason Malignon ()
+- Nolan Puletasi (TODO)
+- Michael Kurihara (TODO)
+- Jason Malignon (TODO)
