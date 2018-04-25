@@ -15,7 +15,16 @@
 UH has many problems with broken stuff, especially restrooms. There have been too many times where I’ve entered a restroom with a broken door handle, missing soap, and rancid odors. In addition to restroom issues, there are other facility problems throughout UH.
 
 ## Installation:
-- TODO
+1. Clone our repository at https://github.com/manoa311/manoa311
+2. Install the following meteor packages:
+  - Moment.js
+    - `npm install moment --save`
+  - Datepicker
+    - `npm install react-datepicker --save`
+  - TODO
+3. Start meteor
+  - `cd <path to Manoa311>/app`
+  - `meteor npm run start`
 
 ## Application Design:
 Our application aims to try to end that by providing a platform for students and faculty to submit repair tickets for certain areas. Repair tickets include description of the problem, location, and image of the issue. Repair tickets may be “upvoted” for awareness by other users, so that the ticket gains attention from administrators.
