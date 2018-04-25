@@ -1,13 +1,14 @@
-Final Project Proposal
+Manoa 311
 
-
-The problem: 
+About:
 UH has many problems with broken stuff, especially restrooms. There have been too many times where I’ve entered a restroom with a broken door handle, missing soap, and rancid odors. In addition to restroom issues, there are other facility problems throughout UH.
 
-The solution: 
+Installation:
+- TODO
+
+Application Design:
 Our application aims to try to end that by providing a platform for students and faculty to submit repair tickets for certain areas. Repair tickets include description of the problem, location, and image of the issue. Repair tickets may be “upvoted” for awareness by other users, so that the ticket gains attention from administrators.
 
-The approach: 
 Landing page: Listing of all current tickets with navigation/filter bar (filter by ticket age, location, popularity), with login/sign up on the top right, contact information on the bottom.
 
 User home page: Same as landing page, but with options to create a ticket, view your current tickets, follow a ticket (user will get notified of any updates to issue), view followed tickets, upvote tickets.
@@ -18,7 +19,7 @@ Creating a ticket: when creating a ticket, the user will have to specify 1) what
 
 Viewing a ticket: when viewing a ticket, the user can comment on the ticket. @Administrators can add a projected finish date to a ticket after receiving it, which lets users know when they plan to work on fixing the issue.
 
-Running list of features to implement:
+Development History:
 - Implement sorting on landing page
 - When viewing a ticket, link it to the actual ticket to be viewed
 - Remove "Admin" tab
@@ -28,6 +29,11 @@ Running list of features to implement:
 - Create "My Tickets" tab for tickets that the user is following and the tickets that the user owns
 
 Advanced features: 
-Email alerts will be sent out for unresolved tickets (on some schedule? Based on severity level? Alert after 30 days if mild/Alert after a week if critical?) until they are resolved.
-Create a geo-map of all of the tickets mapped out, for example:
+- Email alerts will be sent out for unresolved tickets (on some schedule? Based on severity level? Alert after 30 days if mild/Alert after a week if critical?) until they are resolved.
+- Create a geo-map of all of the tickets mapped out
 
+Contact Us:
+- Joaquin Torres (jftorres@hawaii.edu)
+- Nolan Puletasi ()
+- Michael Kurihara ()
+- Jason Malignon ()
