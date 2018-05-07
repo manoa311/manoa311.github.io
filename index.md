@@ -1,3 +1,4 @@
+# ICS 314 - manoa311 github.io page
 ## Table of Contents:
 * [About Manoa311](#about-mano311)
 * [Installation](#installation)
@@ -28,6 +29,8 @@ UH has many problems with broken stuff, especially restrooms. There have been to
 
 ## Application Design:
 Our application aims to try to end that by providing a platform for students and faculty to submit repair tickets for certain areas. Repair tickets include description of the problem, location, and image of the issue. Repair tickets may be “upvoted” for awareness by other users, so that the ticket gains attention from administrators.
+
+- Authentication: Users can create an account and sign in with it with the authentication part of our application. There are two types of users: regular, unprivileged users and administrators, privileged users that have the ability to update tickets and delete tickets.
 
 - Landing page: Listing of all current tickets with navigation/filter bar (filter by ticket age, location, popularity), with login/sign up on the top right, contact information on the bottom.
 
@@ -61,11 +64,31 @@ Our application aims to try to end that by providing a platform for students and
 
 ### Milestone 3:
 - Implement "quick tabs", such as an "Unresolved Tickets" tab
-- TODO
+- Implement updating and deleting tickets (only admins can do this)
+- Implement “Add Ticket” functionality
+- Implement voting system
+	- Users can upvote/downvote tickets, which can then be sorted on
+- Implement comment system
+	- Users can comment on tickets when viewing tickets
+- Implement filter system
+	- Filters based on time and field names (building, status, etc.)
+- Add support/contact section to footer of application
+	- Twitter, Facebook, Instagram, Pintrest, github.io
+- Add pagination
+	- Automatically create pages of ticket rows based on filters
+- Fix navigation bar formatting on landing page
+	- Add indication for tab switching
+- Create mano311 logo
+
 
 #### Advanced Features
 These features may not necessarily get implemented due to time constraints, but they are things that we thought might make our application more useful.
   - Based on number of upvotes, increase the hue of the color of the ticket status
+  - Check for duplicate tickets
+	  - If a ticket exists with a same or similar name/location as the one attempted to be added, throw an error
+  - Change background/color scheme
+  - Implement a loading page for slow loading rows
+	  - This would be more applicable with hundreds or thousands of rows
   - Email alerts will be sent out for unresolved tickets (on some schedule? Based on severity level? Alert after 30 days if mild/Alert after a week if critical?) until they are resolved.
   - Create a geo-map of all of the tickets mapped out
 
