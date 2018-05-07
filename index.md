@@ -34,15 +34,35 @@ Our application aims to try to end that by providing a platform for students and
 
 - Authentication: Users can create an account and sign in with it with the authentication part of our application. There are two types of users: regular, unprivileged users and administrators, privileged users that have the ability to update tickets and delete tickets.
 
+<img class="ui centered medium image" src="../images/loginscreen.png">
+
 - Landing page: Listing of all current tickets with navigation/filter bar (filter by ticket age, location, popularity), with login/sign up on the top right, contact information on the bottom.
+
+<img class="ui centered medium image" src="../images/landingpage.png">
+
+- Our landing page will also have intuitive sorting functions that allow users to use various methods of finding certain tickets based on their search criteria.
+
+<img class="ui centered medium image" src="../images/sortfunction.png">
+
+<img class="ui centered medium image" src="../images/sortfunc1.png">
+
+<img class="ui centered medium image" src="../images/sortfunc2.png">
 
 - "My Tickets" page: Same as landing page, but with options to create a ticket, view your current tickets, follow a ticket (user will get notified of any updates to issue), view followed tickets, upvote tickets.
 
-- Admin Tickets page: Same as user home page, but with options to view all users, edit tickets, delete tickets, and block users.
+- Admin Tickets page: Same as user home page, but with options delete and update tickets.
+
+<img class="ui centered medium image" src="../images/mytickets.png">
 
 - Creating a ticket: when creating a ticket, the user will have to specify 1) what building the issue is in, 2) what type of facility the issue is in (e.g. bathroom, classroom), 3) specifically what the issue is in that room. Users can specify a severity level (on a scale from mild to critical). Users can upvote other tickets for awareness and report/flag to filter “trolls”. A ticket, by default, is unresolved and when seen by administrators, can be updated to received (meaning that the issue is acknowledged). Users can vote a ticket to be resolved, then administrators can mark a ticket as resolved once they verify whether or not the issue is actually fixed (upload a picture of the resolved issue?). 
 
-- Viewing a ticket: when viewing a ticket, the user can comment on the ticket. @Administrators can add a projected finish date to a ticket after receiving it, which lets users know when they plan to work on fixing the issue.
+- Viewing a ticket: when viewing a ticket, the user can comment, upvote, and view a longer description of the issue if the owner of the ticket has given a longer description for the ticket. Administrators may also update the status of the ticket or delete the ticket from this page.
+
+<img class="ui centered medium image" src="../images/viewticket.png">
+
+### Initial User Study
+
+
 
 ## Development History:
 ### Milestone 1:
