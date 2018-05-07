@@ -10,6 +10,7 @@
   * [Admin Tickets page](#admintickets-page)
   * ["Create a Ticket" page](#createticket-page)
   * [View Ticket page](#viewticket-page)
+* [Initial User Study](#initial-user-study)
 * [Development History](#development-history)
   * [Advanced Features](#advanced-features)
 * [Contact](#contact-us)
@@ -61,7 +62,7 @@ Our application aims to try to end that by providing a platform for students and
 <img class="ui centered medium image" src="../images/viewticket.png">
 
 ### Initial User Study
-
+- We were able to get a few members from UH TASI at Saunders Hall to review our web application. The overall response was good.
 
 
 ## Development History:
