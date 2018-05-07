@@ -1,4 +1,6 @@
-# ICS 314 - manoa311 github.io page
+# ICS 314 - manoa311
+## http://manoa311.meteorapp.com/
+
 ## Table of Contents:
 * [About Manoa311](#about-mano311)
 * [Installation](#installation)
