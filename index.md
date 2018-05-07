@@ -62,8 +62,7 @@ Our application aims to try to end that by providing a platform for students and
 <img class="ui centered medium image" src="../images/viewticket.png">
 
 ### Initial User Study
-- We were able to get a few members from UH TASI at Saunders Hall to review our web application. The overall response was good.
-
+- We were able to get a few members from UH TASI at Saunders Hall to review our web application. The study was conducted by presenting each participant with the web application and having them try to navigate the application without any interference from us as bystanders and developers of the application. The study participants ranged from highly technical people, web developers, and non-tech savvy people. The overall response was good; they thought the idea was good, however, there were some outstanding not-so-intuitive interface features that we might not have thought to implement in our final product that were suggested and the user study helped in identifying this.
 
 ## Development History:
 ### Milestone 1:
